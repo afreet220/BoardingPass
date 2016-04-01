@@ -2,7 +2,7 @@
 
 Note:This repo only contains testing site's web file, the .exe and related unity files are too large to upload to github, I may use gitbucket instead in the future if uploading the .exe and c# files are necessary
 
-The .exe will read in strings as command line arguments, then it will run as with a window, when it is finished processing the desired image the .exe will close itself and produce the .png at .exe's directory(which is the same as the web server file)
+The .exe will read in strings as command line arguments, then it will run with a window, when it is finished processing the desired image the .exe will close itself and produce the .png at .exe's directory(which is the same as the web server file)
 
 The test site now will read user input and then send ajax request to handler.php, in which will try to execute the .exe from my local PC(as test server host for now).
 

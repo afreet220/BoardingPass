@@ -9,7 +9,7 @@
 
     //exec("D:/Program Files/wamp/www/boardingpass_test/PsExec.exe");
 
-    /*this one orks,but it's a system app*/
+    /*this one works,but it's a system app*/
     exec("c:/WINDOWS/system32/cmd.exe PING");
 
     /*shell_exec('SCHTASKS /F /Create /TN _boardpass /TR "PsExec.exe" /SC DAILY /RU INTERACTIVE');
